@@ -99,8 +99,12 @@ header{
 }
 
 .imagem{
-    width: 251px;
+    width: 250px;
     height: 190px;
+}
+
+.imagem-revel{
+    display: none;
 }
 
 .rodape{
@@ -218,7 +222,8 @@ header{
         width: 200px;
     }
 
-    @media screen and (max-width: 810px){
+
+@media screen and (max-width: 810px){
         .img3{
             display: none;
         }
@@ -230,5 +235,33 @@ header{
 
     .cabecalho{
         position: relative;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .imagem{
+        display: none;
+    }
+
+    .imagem-revel{
+        display: inline-block;
+    }
+
+    .textDes p{
+        font-size: 20px;
+    }
+
+    .navMenuDois a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .navMenuDois a{
+        font-size: 16px;
+    }
+
+    .contPai{
+        height: 300px;
     }
 }
