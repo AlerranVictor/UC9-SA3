@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #B01A1A;
+    height: 95px;
+}
+
+.grid{
+    width: 1200px;
+}
+
+.cabecalho{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    width: 272px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone-menu{
+    height: 40px;
+}
+
+#barras{
+    display: none;
+}
+
+.banner{
+    width: 100%;
+    height: 259px;
+    background-image: url(img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menuDois{
+    justify-content: center;
+    display: flex;
+    background-color: #B01A1A;
+    height: 90px;
+    width: 100%;
+}
+
+.navMenuDois{
+    display: flex;
+    background-color: #B01A1A;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navMenuDois a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.contPai{
+    display: flex;
+    background-color: #0D0909;
+    height: 367px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textDes{
+    background-color: #0D0909;
+    display: flex;
+    height: 50px;
+}
+
+.textDes p{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+}
+
+.Conteudo{
+    background-color: #0D0909;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 190px;
+}
+
+.imagem{
+    width: 251px;
+    height: 190px;
+}
+
+.rodape{
+    height: 203px;
+    display: flex;
+    background-color: #B01A1A;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-rodape{
+    background-color: #B01A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 429px;
+    height: 117px;
+}
+
+.telrodape{
+    background-color: #B01A1A;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 246px;
+    height: 51px;
+}
+
+.telrodape p{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.corpo-login{
+    background-color: #0D0909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.for-login{
+    display: flex;
+    background-color: #0D0909;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: #B01A1A solid;
+    border-radius: 14px;
+}
+
+.for-login label{
+    color: white;
+}
+
+.for-login div{
+    flex-direction: column;
+}
+
+.b-entrar{
+    display: flex;
+}
+
+.b-entrar button{
+    color: red;
+    background-color:darkblue;
+    border-radius: 7px;
+}
+
+.help-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px){
+    .grid{
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .img4{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+    #barras{
+        display: inline-block;
+    }
+    .menu{
+        position: absolute;
+        top: 95px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: #B01A1A;
+        height: 250px;
+        width: 200px;
+    }
+
+    @media screen and (max-width: 810px){
+        .img3{
+            display: none;
+        }
+    }
+
+    .menu-ativo{
+        display: flex;
+    }
+
+    .cabecalho{
+        position: relative;
+    }
+}
