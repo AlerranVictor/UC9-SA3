@@ -175,11 +175,11 @@ header{
     flex-direction: column;
 }
 
-.b-entrar{
-    display: flex;
+#formulario input{
+    color: aliceblue;
 }
 
-.b-entrar button{
+#formulario button{
     color: red;
     background-color:darkblue;
     border-radius: 7px;
