@@ -124,6 +124,14 @@ header{
     height: 117px;
 }
 
+#logo-revel-1{
+    display: none;
+}
+
+#logo-revel-2{
+    display: none;
+}
+
 .telrodape{
     background-color: #B01A1A;
     display: flex;
@@ -227,6 +235,14 @@ header{
         .img3{
             display: none;
         }
+
+        #logo-de-rodape{
+            display: none;
+        }
+
+        #logo-revel-1{
+            display: inline-block;
+        }
     }
 
     .menu-ativo{
@@ -252,6 +268,18 @@ header{
     }
 
     .navMenuDois a{
+        font-size: 18px;
+    }
+
+    #logo-revel-1{
+        display: none;
+    }
+
+    #logo-revel-2{
+        display: inline-block;
+    }
+
+    .telrodape p{
         font-size: 18px;
     }
 }
