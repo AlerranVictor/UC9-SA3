@@ -177,6 +177,8 @@ header{
 
 #formulario input{
     color: aliceblue;
+    background-color: indigo;
+    text-decoration: none;
 }
 
 #formulario button{
@@ -291,11 +293,5 @@ header{
 
     .contPai{
         height: 300px;
-    }
-
-    .for-login{
-        width: 200px;
-        height: 200px;
-        box-shadow: darkred 8px;
     }
 }
